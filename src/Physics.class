@@ -1,0 +1,8 @@
+public class Physics {
+    public Physics() {
+    }
+
+    public float velocity(float var1, int var2) {
+        return var1 / (float)var2;
+    }
+}
