@@ -1,0 +1,15 @@
+public class Userr {
+    String name;
+    String password;
+
+    public Userr() {
+    }
+
+    String login() {
+        return "Logged in";
+    }
+
+    String Register() {
+        return !this.name.equals("") && !this.password.equals("") ? "Success" : "can't be empty";
+    }
+}
