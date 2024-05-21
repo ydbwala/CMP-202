@@ -1,0 +1,22 @@
+public class Student extends Userr {
+    String matricNo;
+    String AdmissionNo;
+
+    public Student() {
+    }
+
+    String RegisterCourse() {
+        return "CMP202";
+    }
+
+    String CheckResult() {
+        this.matricNo = "BHU/22/04/09/0039";
+        this.AdmissionNo = "112242558";
+        return !this.matricNo.equals("BHU/22/04/09/0039") && !this.AdmissionNo.equals("112242558") ? " FAILED!! Input matric number and admission number" : "Result";
+    }
+
+    public static void main(String[] var0) {
+        new Student();
+        System.out.println("RESULT");
+    }
+}
