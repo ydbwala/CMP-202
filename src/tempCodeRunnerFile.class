@@ -1,0 +1,16 @@
+public class tempCodeRunnerFile extends Animal {
+    public tempCodeRunnerFile() {
+    }
+
+    String move() {
+        return "Swings on tree";
+    }
+
+    public static void main(String[] var0) {
+        tempCodeRunnerFile var1 = new tempCodeRunnerFile();
+        tempCodeRunnerFile var2 = new tempCodeRunnerFile();
+        var2.move();
+        var1.move();
+        System.out.println(var2.move());
+    }
+}
