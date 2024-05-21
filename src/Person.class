@@ -1,0 +1,41 @@
+public class Person {
+    String name;
+    private String schoolName = "Bingham university";
+    private String password;
+    private String matricNo;
+    private int staffNo;
+
+    public String toString() {
+        return "Person{name='" + this.name + "', schoolName='" + this.schoolName + "', password='" + this.password + "', matricNo='" + this.matricNo + "', staffNo='" + this.staffNo + "'}";
+    }
+
+    Person() {
+        System.out.println("Object created");
+    }
+
+    public Person(String var1, String var2, String var3, String var4) {
+        this.name = var1;
+        this.schoolName = var2;
+        this.password = var3;
+        this.matricNo = var4;
+    }
+
+    public Person(String var1, String var2, String var3, int var4) {
+        this.schoolName = var1;
+        this.name = var2;
+        this.password = var3;
+        this.staffNo = var4;
+    }
+
+    String getName() {
+        return this.name;
+    }
+
+    void setName(String var1) {
+        this.name = var1;
+    }
+
+    void setPassword(String var1) {
+        this.password = var1;
+    }
+}
